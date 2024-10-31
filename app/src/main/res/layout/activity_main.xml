@@ -107,4 +107,14 @@
         app:layout_constraintStart_toStartOf="@+id/tip_option"
         app:layout_constraintTop_toBottomOf="@+id/tip_option" />
 
+    <Button
+        android:id="@+id/calculate_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/calculate"
+        app:layout_constraintEnd_toEndOf="@+id/round_up_switch"
+        app:layout_constraintStart_toStartOf="@+id/round_up_switch"
+        app:layout_constraintTop_toBottomOf="@+id/round_up_switch" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
